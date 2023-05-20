@@ -114,3 +114,36 @@ h3 {
 .wave {
     margin-top: -140px;
 }
+
+/* Animation CSS Custom */
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+@keyframes fadeInLeft {
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  }
+
+  .animations {
+    position: relative;
+    animation: fadeInRight 3s forwards;
+  }
+
+  .tagloc {
+    position: relative;
+    animation: fadeInLeft 3s forwards;
+  }
