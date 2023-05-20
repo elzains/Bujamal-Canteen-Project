@@ -1,0 +1,116 @@
+/* Font Configuration */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=Poppins&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Container Wrapper */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo h1 {
+  margin: 0;
+  color: #101041;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 50px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #101041;
+}
+
+.navbar ul li a:hover {
+    color: #3A38FF;
+}
+
+.btn a {
+  padding: 10px 20px;
+  background-color: #DFE2E7;
+  color: #101041;
+  text-decoration: none;
+  border-radius: 3rem;
+}
+
+/* Header Banner Start */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col h2 {
+    font-size: 48px;
+    color: #101041;
+    font-weight: bold;
+}
+
+h3 {
+    display: flex;
+}
+
+.col .tagloc {
+    background-color: #E5E4FF;
+    width: 303px;
+    height: 37px;
+    font-size: 11px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101041;
+}
+
+.col p {
+    color: #949293;
+    padding-bottom: 32px;
+}
+
+.col img {
+    width: 615px;
+}
+
+.wa a {
+    padding: 10px 20px;
+    background-color: #3A38FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3rem;
+  }
+
+/* Wave */
+.wave {
+    margin-top: -140px;
+}
