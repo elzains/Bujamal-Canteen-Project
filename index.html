@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Bujamal</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="assets/fade.scss" />
   </head>
   <body>
     <!-- Navbar Start -->
@@ -33,7 +34,10 @@
     <!-- Header Banner Start -->
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div
+          class="col"
+          style="position: relative; animation: fadeInLeft 3s forwards"
+        >
           <div class="tagloc">
             <h3>
               <svg
@@ -86,7 +90,7 @@
             </h3>
           </div>
 
-          <h2>Delicious Meals for Campus Life</h2>
+          <h2 id="typing">Delicious Meals for Campus Life</h2>
           <p>
             Serving You The Best Flavors Right at Your Doorstep and Indulge in
             Exquisite Flavors and Campus Vibes
@@ -96,7 +100,9 @@
           </div>
         </div>
         <div class="col">
-          <img src="assets/hero-banner.png" alt="" />
+          <div class="animations">
+            <img src="assets/hero-banner.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -110,5 +116,7 @@
         ></path>
       </svg>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
